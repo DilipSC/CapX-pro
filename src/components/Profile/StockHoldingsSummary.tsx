@@ -116,7 +116,7 @@ export default function StockHoldingsSummary() {
   if (loading) return <div>Loading...</div>
 
   return (
-    <Card>
+    <Card className='bg-gradient-to-br from-black via-gray-800 to-gray-900 text-white'>
       <CardHeader>
         <CardTitle>Stock Holdings Summary</CardTitle>
       </CardHeader>

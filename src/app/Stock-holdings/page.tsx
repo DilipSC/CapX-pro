@@ -10,13 +10,13 @@ export default function StockHoldingsPage() {
   const [refreshKey, setRefreshKey] = useState(0)
 
   return (
-    <div className="flex h-screen bg-white text-black">
+    <div className="flex h-screen bg-white text-white">
       <Sidebar />
       <div className="flex-1 flex flex-col overflow-hidden">
         <Header />
-        <main className="flex-1 overflow-x-hidden overflow-y-auto bg-white">
+        <main className="flex-1 overflow-x-hidden overflow-y-auto bg-gradient-to-br from-black via-gray-800 to-gray-900 text-white">
           <div className="container mx-auto px-6 py-8">
-            <h3 className="text-black text-3xl font-medium">Stock Holdings</h3>
+            <h3 className="text-white text-3xl font-medium">Stock Holdings</h3>
             <div className="mt-8">
               <AddStockHoldingForm onStockAdded={() => setRefreshKey(prev => prev + 1)} />
             </div>

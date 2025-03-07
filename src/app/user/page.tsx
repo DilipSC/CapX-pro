@@ -43,13 +43,13 @@ export default function UserProfilePage() {
   }
 
   return (
-    <div className="flex h-screen bg-white text-black">
+    <div className="flex h-screen bg-gradient-to-br from-black via-gray-800 to-gray-900 text-white">
       <Sidebar />
       <div className="flex-1 flex flex-col overflow-hidden">
         <Header />
-        <main className="flex-1 overflow-x-hidden overflow-y-auto bg-white">
+        <main className="flex-1 overflow-x-hidden overflow-y-auto bg-gradient-to-br from-black via-gray-800 to-gray-900 text-white">
           <div className="container mx-auto px-6 py-8">
-            <h3 className="text-black text-3xl font-medium mb-6">User Profile</h3>
+            <h3 className="text-white text-3xl font-medium mb-6">User Profile</h3>
             {hasHoldings ? (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <UserInfo />

@@ -113,7 +113,7 @@ export default function DashboardSummary() {
   }
 
   return (
-    <Card>
+    <Card className='bg-gradient-to-br from-black via-gray-800 to-gray-900 text-white'>
       <CardHeader>
         <CardTitle>Dashboard Summary</CardTitle>
       </CardHeader>

@@ -244,8 +244,8 @@ export default function PortfolioValueTracker() {
   }
 
   return (
-    <div className="space-y-6">
-      <Card>
+    <div className="space-y-6 bg-gradient-to-br from-black via-gray-800 to-gray-900">
+      <Card className='bg-gradient-to-br from-black via-gray-800 to-gray-900 text-white'>
         <CardHeader>
           <CardTitle>Total Portfolio Value</CardTitle>
         </CardHeader>
@@ -254,7 +254,7 @@ export default function PortfolioValueTracker() {
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className='bg-gradient-to-br from-black via-gray-800 to-gray-900 text-white'>
         <CardHeader>
           <CardTitle>Holdings</CardTitle>
         </CardHeader>

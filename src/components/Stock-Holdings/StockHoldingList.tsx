@@ -91,7 +91,7 @@ export default function StockHoldingsList() {
   }
 
   return (
-    <Table>
+    <Table className='bg-gradient-to-br from-black via-gray-800 to-gray-900 text-white'>
       <TableHeader>
         <TableRow>
           <TableHead>Symbol</TableHead>

@@ -32,7 +32,7 @@ export default function UserInfo() {
   }, [supabase.auth])
 
   return (
-    <Card>
+    <Card className='bg-gradient-to-br from-black via-gray-800 to-gray-900 text-white'>
       <CardHeader>
         <CardTitle>User Information</CardTitle>
       </CardHeader>

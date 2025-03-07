@@ -83,7 +83,7 @@ export default function PortfolioValueSummary() {
   if (loading) return <div>Loading...</div>
 
   return (
-    <Card>
+    <Card className='bg-gradient-to-br from-black via-gray-800 to-gray-900 text-white'>
       <CardHeader>
         <CardTitle>Portfolio Value Summary</CardTitle>
       </CardHeader>

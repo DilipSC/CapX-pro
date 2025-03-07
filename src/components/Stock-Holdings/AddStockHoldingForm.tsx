@@ -58,7 +58,7 @@ export default function AddStockHoldingForm({ onStockAdded }: { onStockAdded: ()
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
+    <form onSubmit={handleSubmit} className="space-y-4 bg-gradient-to-br from-black via-gray-800 to-gray-900 text-white">
       <div>
         <Label htmlFor="symbol">Stock</Label>
         <Select value={symbol} onValueChange={setSymbol}>

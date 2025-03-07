@@ -43,7 +43,7 @@ export default function Sidebar() {
   return (
     <TooltipProvider>
       <motion.div 
-        className="flex flex-col h-screen bg-background border-r"
+        className="flex flex-col h-screen text-white border-r bg-gradient-to-br from-black via-gray-800 to-gray-900"
         initial="expanded"
         animate={isCollapsed ? "collapsed" : "expanded"}
         variants={sidebarVariants}
